@@ -1,2 +1,2 @@
 # Web-Music-Player
-A web music player project, using Spring Boot (to do API's), React (to do Front-end), MongoDB (to store data)  and Digital Ocean for cloud storage.
+A web music player project, using Spring Boot (to do API's), React (to Front-end), MongoDB (to store data)  and Digital Ocean for cloud storage.
