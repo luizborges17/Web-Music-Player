@@ -1,10 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.example.webmusicplayer.WebMusicPlayerApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.127 s <<< FAILURE! - in com.example.webmusicplayer.WebMusicPlayerApplicationTests
-contextLoads  Time elapsed: 0.006 s  <<< ERROR!
-java.lang.IllegalStateException: Failed to load ApplicationContext
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongoDatabaseFactory' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDatabaseFactoryConfiguration.class]: Failed to instantiate [org.springframework.data.mongodb.core.MongoDatabaseFactorySupport]: Database name must not be empty!
-Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.mongodb.core.MongoDatabaseFactorySupport]: Database name must not be empty!
-Caused by: java.lang.IllegalArgumentException: Database name must not be empty!
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.615 s - in com.example.webmusicplayer.WebMusicPlayerApplicationTests
